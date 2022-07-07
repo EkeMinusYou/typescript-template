@@ -5,13 +5,13 @@
     "build": "tsc",
     "build:watch": "tsc --watch",
     "start": "node ./dist/app.js",
-    "lint": "eslint --ext .js,.ts .",
-    "lint:fix": "eslint --ext --fix .js,.ts ."
+    "lint": "eslint .",
+    "lint:fix": "eslint ."
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.17.0",
-    "@typescript-eslint/parser": "^5.17.0",
-    "eslint": "^8.12.0",
-    "typescript": "^4.6.3"
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.19.0",
+    "typescript": "^4.7.4"
   }
 }
